@@ -1,0 +1,44 @@
+/* HeroesComponent's private CSS styles */
+.heroes {
+  margin: 0 auto; /* Centra el listado horizontalmente */
+  padding: 20px; /* Añade espacio interno */
+  max-width: 600px; /* Limita el ancho máximo del listado */
+}
+
+h2 {
+  color: #00ADB5; /* Cambia el color del título */
+  font-size: 1.5rem; /* Aumenta el tamaño de la fuente */
+  text-align: center; /* Centra el título */
+  margin-bottom: 20px; /* Añade espacio inferior al título */
+}
+
+.heroes ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.heroes li {
+  margin-bottom: 10px; /* Añade espacio inferior entre cada ítem */
+}
+
+.heroes a {
+  display: block; /* Hace que los enlaces ocupen todo el ancho del contenedor */
+  color: #333;
+  text-decoration: none;
+  background-color: #EEEEEE; /* Cambia el color de fondo */
+  padding: 10px; /* Añade espacio interno */
+  border-radius: 4px; /* Añade bordes redondeados */
+  transition: background-color 0.3s ease; /* Agrega una transición suave al cambio de color de fondo */
+}
+
+.heroes a:hover {
+  background-color: #e0e0e0; /* Cambia el color de fondo al pasar el ratón */
+}
+
+.heroes .badge {
+  color: white;
+  background-color: #00ADB5; /* Cambia el color de fondo del badge */
+  padding: 5px 10px; /* Ajusta el espacio interno */
+  border-radius: 4px; /* Añade bordes redondeados */
+  margin-right: 10px; /* Añade margen derecho */
+}

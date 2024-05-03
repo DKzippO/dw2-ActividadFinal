@@ -1,0 +1,30 @@
+/* MessagesComponent's private CSS styles */
+.container {
+  background-color: #eeeeee83; /* Color de fondo del contenedor */
+  padding: 20px; /* Espacio interno */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sombra */
+  margin-top: 50px; /* Añadido: separación superior */
+}
+
+h2 {
+  color: #312222;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+button.clear {
+  margin-bottom: 12px; /* Añadido: espacio inferior al botón */
+  background-color: #393E46; /* Añadido: color de fondo del botón */
+  color: white; /* Añadido: color del texto del botón */
+  padding: 10px 150px; /* Añadido: espacio interno del botón */
+  border: none; /* Añadido: eliminar el borde del botón */
+  border-radius: 4px; /* Añadido: bordes redondeados del botón */
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button.clear:hover {
+  background-color: #222831; /* Añadido: color de fondo del botón al pasar el ratón */
+  transition: background-color 0.3s ease;
+}

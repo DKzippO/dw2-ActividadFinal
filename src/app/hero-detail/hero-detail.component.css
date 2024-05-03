@@ -1,0 +1,69 @@
+/* HeroDetailComponent's private CSS styles */
+:host {
+  display: flex; /* Añadido: usa flexbox para centrar el contenido vertical y horizontalmente */
+  justify-content: center; /* Añadido: centrar horizontalmente */
+  align-items: center; /* Añadido: centrar verticalmente */
+  height: 600px; /* Añadido: hacer que el componente ocupe toda la altura de la ventana */
+}
+
+.container {
+  background-color: #EEEEEE; /* Añadido: color de fondo del formulario */
+  padding: 40px; /* Añadido: espacio interno */
+  border-radius: 8px; /* Añadido: bordes redondeados */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Añadido: sombra */
+  text-align: center; /* Añadido: centrar el texto */
+  max-width: 500px; /* Añadido: ancho máximo del formulario */
+}
+
+h2 {
+  color: #00ADB5;
+  margin-bottom: 10px; /* Modificado: aumenta el espacio entre el título y el contenido */
+}
+h3 {
+  color: #00ADB5;
+  margin-bottom: 10px; /* Modificado: aumenta el espacio entre el título y el contenido */
+}
+
+label {
+  display: block; /* Añadido: colocar cada etiqueta en una línea nueva */
+  color: #435960;
+  font-weight: bold;
+  margin-bottom: 10px; /* Añadido: aumenta el espacio entre etiquetas */
+}
+
+input {
+  width: 100%; /* Modificado: el ancho del input es del 100% del contenedor */
+  font-size: 1em;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px; /* Añadido: aumenta el espacio entre inputs */
+}
+
+img {
+  max-width: 270px; /* Añadido: limita el ancho de la imagen */
+  height: auto;
+  border-radius: 8px; /* Añadido: bordes redondeados para la imagen */
+  margin-bottom: 20px; /* Añadido: espacio inferior a la imagen */
+}
+
+button {
+  background-color: #393E46;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #222831;
+  transition: background-color 0.3s ease;
+}
+
+button:disabled {
+  background-color: #ccc;
+  color: #666;
+  cursor: auto;
+}

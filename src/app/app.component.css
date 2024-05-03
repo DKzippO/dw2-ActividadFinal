@@ -1,0 +1,36 @@
+/* AppComponent's private CSS styles */
+:host {
+  display: flex; /* Usa flexbox para centrar el contenido vertical y horizontalmente */
+  flex-direction: column; /* Coloca los elementos en una columna */
+  align-items: center; /* Centra los elementos horizontalmente */
+  justify-content: center; /* Centra los elementos verticalmente */
+}
+
+h1 {
+  margin-bottom: 20px; /* Añade espacio inferior al título */
+  color: #222831; /* Cambia el color del texto */
+}
+
+nav {
+  text-align: center; /* Centra los enlaces horizontalmente */
+  margin-bottom: 10px; /* Añade espacio inferior al menú */
+}
+
+nav a {
+  padding: 10px 20px; /* Añade espacio interno */
+  text-decoration: none;
+  display: inline-block;
+  background-color: #393E46; /* Cambia el color de fondo de los enlaces */
+  color: #fff; /* Cambia el color del texto */
+  border-radius: 4px; /* Añade bordes redondeados */
+  margin: 10px; /* Añade margen entre los enlaces */
+  transition: background-color 0.3s ease; /* Agrega una transición suave al cambio de color de fondo */
+}
+
+nav a:hover {
+  background-color: #222831; /* Cambia el color de fondo al pasar el ratón */
+}
+
+nav a:active {
+  background-color: #222831; /* Cambia el color de fondo al hacer clic */
+}
